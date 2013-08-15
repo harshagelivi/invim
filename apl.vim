@@ -7,7 +7,7 @@ if exists("b:current_syntax")
 endif
 
 " Keywords
-syn keyword Statement while return endwhile do then if endif break continue breakpoint skipwhite
+syn keyword Statement while return endwhile do then if else print endif break continue breakpoint skipwhite
 syn keyword Function Create Open Seek Read Write Delete
 syn keyword Type integer string
 
