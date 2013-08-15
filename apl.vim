@@ -1,6 +1,6 @@
 "Vim syntax file
 "Author: Harsha Gelivi
-"Language: SPL
+"Language: APL
 
 if exists("b:current_syntax")
 	finish
