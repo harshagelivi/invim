@@ -7,7 +7,7 @@ if exists("b:current_syntax")
 endif
 
 " Keywords
-syn keyword Statement while endwhile do then alias if endif breakpoint skipwhite
+syn keyword Statement while endwhile do then alias if else endif breakpoint skipwhite
 syn keyword Function load store print ireturn
 syn keyword Type PTLR SP BP PTBR IP EFR
 syn keyword PreProc SCRATCHPAD PAGE_TABLE MEM_LIST FILE_TABLE READY_LIST FAT DISK_LIST EX_HANDLER T_INTERRUPT INTERRUPT USER_PROG
